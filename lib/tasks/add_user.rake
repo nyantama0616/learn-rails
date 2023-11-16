@@ -7,7 +7,7 @@ namespace :add_user do
     end
 end
 
-# メソッドの分け方はこれでいいのかは不明
+# OPTIMIZE: メソッドの分け方はこれでいいのかは不明
 module AddUser
     def self.generate_random_string
         user_id = ''
