@@ -6,4 +6,5 @@ Rails.application.routes.draw do
 
   get "time", to: "others#time"
   get "log", to: "others#log"
+  get "test_digest_auth", to: "others#test_digest_auth"
 end
