@@ -37,5 +37,6 @@ module LearnRails
     config.api_only = true
 
     config.developper = "Nyantama"
+    config.log_level = :error #エラー以上のログのみ出力する
   end
 end

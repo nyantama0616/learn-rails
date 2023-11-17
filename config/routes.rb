@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   get "time", to: "others#time"
+  get "log", to: "others#log"
 end
