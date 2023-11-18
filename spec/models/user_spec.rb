@@ -5,6 +5,8 @@ RSpec.describe User, type: :model do
     user0 = FactoryBot.create(:user)
     user1 = User.new(user_id: user0.user_id, password: "");
 
+    # binding.pry
+    
     expect(user1).to be_invalid
   end
 end
