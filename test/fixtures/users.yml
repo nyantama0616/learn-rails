@@ -1,0 +1,6 @@
+<% 1.upto(10) do |i| %>
+user<%= i %>:
+  id: <%= i %>
+  user_id: user<%= i %>
+  password: pass<%= i %>
+<% end %>
